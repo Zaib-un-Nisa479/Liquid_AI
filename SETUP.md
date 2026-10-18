@@ -2,14 +2,11 @@
 
 ## Clone the repository
 
-Install [Git](https://git-scm.com/) and [Git LFS](https://git-lfs.com/) first.
-In PowerShell:
+Install [Git](https://git-scm.com/) first. In PowerShell:
 
 ```powershell
-git lfs install
 git clone https://github.com/Zaib-un-Nisa479/Liquid_AI.git
 cd Liquid_AI
-git lfs pull
 ```
 
 ## Create an environment (Windows PowerShell)
@@ -31,6 +28,20 @@ For an NVIDIA GPU, replace the CPU PyTorch command with the CUDA command
 recommended by the PyTorch install selector. The CPU command is only appropriate
 for CPU-only installations.
 
+## Download the audio data
+
+The audio files are hosted on Hugging Face because they are too large for
+GitHub. From the repository root, run:
+
+```powershell
+python -m pip install huggingface_hub
+hf download zaibun594/liquid-ai-audio --repo-type dataset --local-dir .
+```
+
+This creates `test_audio/`, `test_chunks_en/`, `audios_filtered/` and
+`outputs/` in the project folder. If `hf` is not recognised on an older
+install, use `huggingface-cli download` with the same arguments.
+
 ## Check the code and run an inference test
 
 Run a syntax check without downloading model weights:
@@ -40,7 +51,7 @@ python -m compileall -q chunk_audios.py latency_live.py liquid_accuracy.py liqui
 ```
 
 Run speech-to-speech on the included sample to test the installed dependencies
-and model:
+and model (this needs the audio data downloaded above):
 
 ```powershell
 python liquid_s2s.py files --max-new-tokens 128 test_audio/p1__clean.wav
