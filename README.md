@@ -31,11 +31,27 @@ transcripts, generated audio, and timing measurements.
 | `liquid_accuracy.py` | Run ASR and optional speech-to-speech accuracy checks |
 | `run_demo_cpu.py` | Launch the package's Gradio demo with a CPU `.cuda()` workaround |
 | `accuracy_set.json`, `accuracy_en.json` | Example evaluation manifests |
-| `test_audio/`, `test_chunks_en/`, `audios_filtered/` | Audio samples used by the experiments |
-| `outputs/` | Example generated audio and experiment result files |
 
-Audio files and `audios_filtered.zip` are stored with Git LFS. Install Git LFS
-before cloning so those files are downloaded correctly.
+The audio folders (`test_audio/`, `test_chunks_en/`, `audios_filtered/`) and the
+example generated results (`outputs/`) are **not** stored in this repository.
+They are hosted on Hugging Face (see below).
+
+## Audio data
+
+The audio files are too large for GitHub, so they are hosted as a Hugging Face
+dataset:
+
+https://huggingface.co/datasets/zaibun594/liquid-ai-audio
+
+To download them into the project folder (run from the repository root):
+
+```
+pip install huggingface_hub
+hf download zaibun594/liquid-ai-audio --repo-type dataset --local-dir .
+```
+
+This recreates `test_audio/`, `test_chunks_en/`, `audios_filtered/` and
+`outputs/` where the scripts expect them.
 
 > **Snapshot limitation:** this repository contains the files currently present
 > in the project folder. The earlier `engine.py`, `llm.py`, `pipeline.py`, and
