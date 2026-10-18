@@ -1,0 +1,17 @@
+[
+  {
+    "audio": "outputs/live/turn_01_input.wav",
+    "reference": "how does machine learning work",
+    "keywords": ["data", "learn"]
+  },
+  {
+    "audio": "outputs/live/turn_02_input.wav",
+    "reference": "EDIT: type exactly what you said in turn 2",
+    "keywords": []
+  },
+  {
+    "audio": "outputs/live/turn_03_input.wav",
+    "reference": "EDIT: type exactly what you said in turn 3",
+    "keywords": []
+  }
+]

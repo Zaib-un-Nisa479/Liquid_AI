@@ -1,0 +1,114 @@
+[
+  {
+    "audio": "test_chunks_en/01_audio_cut_1786977853563__c1.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "audio-cut-1786977853563.wav",
+    "start_s": 16.1,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/01_audio_cut_1786977853563__c2.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "audio-cut-1786977853563.wav",
+    "start_s": 88.3,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/02_I_AM_THAT_MONSTER_Ls_Speech_Death_Note_E__c1.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "I_AM_THAT_MONSTER_-_Ls_Speech_-_Death_Note_EditAMV.wav",
+    "start_s": 8.3,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/02_I_AM_THAT_MONSTER_Ls_Speech_Death_Note_E__c2.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "I_AM_THAT_MONSTER_-_Ls_Speech_-_Death_Note_EditAMV.wav",
+    "start_s": 70.3,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/03_Itachis_Speech_On_Reality__c1.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "Itachis_Speech_On_Reality.wav",
+    "start_s": 7.7,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/03_Itachis_Speech_On_Reality__c2.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "Itachis_Speech_On_Reality.wav",
+    "start_s": 11.9,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/04_Marino_Devil_In_Disguise_AcapellaVocals___c1.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "Marino_-_Devil_In_Disguise_AcapellaVocals_Only.wav",
+    "start_s": 9.2,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/04_Marino_Devil_In_Disguise_AcapellaVocals___c2.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "Marino_-_Devil_In_Disguise_AcapellaVocals_Only.wav",
+    "start_s": 36.6,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/05_Osaragi_sensei_s_Lesson_SAKAMOTO_DAYS_Cl__c1.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "Osaragi-sensei's Lesson SAKAMOTO DAYS Clip Netflix Anime - Netflix Anime (128k).wav",
+    "start_s": 36.7,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/05_Osaragi_sensei_s_Lesson_SAKAMOTO_DAYS_Cl__c2.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "Osaragi-sensei's Lesson SAKAMOTO DAYS Clip Netflix Anime - Netflix Anime (128k).wav",
+    "start_s": 46.7,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/06_What_is_Literature_I_Introduction_to_Lit__c1.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "What is Literature I Introduction to Literature - English Grammar and Literature (128k).wav",
+    "start_s": 61.6,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/06_What_is_Literature_I_Introduction_to_Lit__c2.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "What is Literature I Introduction to Literature - English Grammar and Literature (128k).wav",
+    "start_s": 135.6,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/07_Zia_Mohyeddin_reads_Hamlet_Act_2_Scene_2__c1.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "Zia Mohyeddin reads Hamlet, Act 2, Scene 2 - OneSudo (128k).wav",
+    "start_s": 4.3,
+    "duration_s": 15.0
+  },
+  {
+    "audio": "test_chunks_en/07_Zia_Mohyeddin_reads_Hamlet_Act_2_Scene_2__c2.wav",
+    "reference": "",
+    "keywords": [],
+    "source": "Zia Mohyeddin reads Hamlet, Act 2, Scene 2 - OneSudo (128k).wav",
+    "start_s": 10.7,
+    "duration_s": 15.0
+  }
+]

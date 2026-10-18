@@ -1,0 +1,23 @@
+# Python virtual environments
+.venv/
+venv/
+venv1/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+.venv/
+__pycache__/
+*.wav
+*.zip

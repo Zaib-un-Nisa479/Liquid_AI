@@ -1,0 +1,7 @@
+# Install PyTorch FIRST for your hardware (see README step 3), then:
+liquid-audio
+soundfile
+numpy
+transformers>=4.55
+accelerate
+sounddevice      # optional: only for record_mic.py
